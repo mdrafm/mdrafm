@@ -1,0 +1,57 @@
+.portlet.box.blue-steel {
+    border: 1px solid #7093cc;
+    border-top: 0;
+}
+
+.portlet.box.blue-steel>.portlet-title {
+    background-color: #be5a4b;
+}
+
+.portlet.box.blue-steel>.portlet-title>.caption {
+    color: #FFFFFF;
+    padding: 11px 0 9px 10px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+form {
+    padding: 5px;
+}
+
+div.checker {
+    margin-right: 5px;
+}
+div.checker span {
+    font-family: emoji;
+font-size: 1.4rem;
+}
+.portlet.box.blue-steel {
+    border: 1px solid #7093cc;
+    border-top: 0;
+    
+}
+
+.form .form-actions {
+    padding: 20px 10px;
+    margin: 0;
+    background-color: #e3cfcf;
+    border-top: 1px solid #e5e5e5;
+    
+
+}
+ .checkbox{
+    display: flex;
+align-items: center;
+font-size: 1.2rem;
+}
+
+.checkbox2{
+
+width: 20px;
+height: 20px;
+}
+#tbl_case_law{
+    padding: 30px;
+   
+    /* box-shadow: rgb(0 0 0 / 16%) 0px 3px 6px, rgb(0 0 0 / 23%) 0px 3px 6px; */
+}
