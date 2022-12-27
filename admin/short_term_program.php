@@ -388,96 +388,22 @@
                                                     <?php 
                                                      if($row['trng_type'] == 4){
                                                         ?>
-                                                           <input type="text" class="btn " style="background:#3292a2"
+                                                           <input type="button" class="btn " style="background:#3292a2"
                                                             name="send"
                                                             onclick="datapost('program_detail.php',{id: <?php echo $row['id'] ?>,trng_type: <?php echo $row['trng_type'] ?> })"
                                                             value="View Detail" />
                                                         <?php
                                                      }else{
                                                          ?>
-                                                           <input type="text" class="btn" style="background:#3292a2"
-                                                        data-toggle="modal"
-                                                        data-target="#viewModal_<?php echo $row['id'] ?>"
-                                                        value="View Detail" />
+                                                            <input type="button" class="btn " style="background:#3292a2"
+                                                            name="send"
+                                                            onclick="datapost('sponsored_program_detrail.php',{id: <?php echo $row['id'] ?>,trng_type: <?php echo $row['trng_type'] ?> })"
+                                                            value="View Detail" />
                                                          <?php
                                                      }
                                                      
                                                      ?>
-                                                    
-
-
-                                                    <!-- Modal -->
-                                                    <div class="modal fade" id="viewModal_<?php echo $row['id'] ?>"
-                                                        data-backdrop="static" data-keyboard="false" tabindex="-1"
-                                                        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                                                        <div class="modal-dialog">
-                                                            <div class="modal-content"
-                                                                style="width:200%; margin:20px -150px">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="staticBackdropLabel">
-                                                                        Program Detail</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <div class="prog_div">
-                                                                        <div class="row">
-                                                                            <div class="col-md-4">
-                                                                                Program Name :
-                                                                                <?php echo $row['prg_name'] ?>
-                                                                            </div>
-                                                                            <div class="col-md-4"
-                                                                                style="display:<?php echo ($row['trng_type'] == 4)?'none':'' ?>">
-                                                                                Department Name :
-                                                                                <?php echo $row['dept_name'] ?>
-                                                                            </div>
-                                                                            <div class="col-md-4"
-                                                                                style="display:<?php echo ($row['trng_type'] == 4)?'none':'' ?>">
-                                                                                Department Email :
-                                                                                <?php echo $row['dept_email'] ?>
-                                                                            </div>
-                                                                        </div><br>
-                                                                        <div class="row">
-                                                                            <div class="col-md-4">
-                                                                                Tranning Start Date :
-                                                                                <?php echo $row['start_date'] ?>
-                                                                            </div>
-                                                                            <div class="col-md-4">
-                                                                                Tranning End Date :
-                                                                                <?php echo $row['end_date'] ?>
-                                                                            </div>
-                                                                            <div class="col-md-4"
-                                                                                style="display:<?php echo ($row['trng_type'] == 4)?'none':'' ?>">
-                                                                                Tranning Hall :
-                                                                                <?php echo $row['hall_name'] ?>
-                                                                            </div>
-                                                                        </div><br>
-                                                                        <div class="row"
-                                                                            style="display:<?php echo ($row['trng_type'] == 4)?'none':'' ?>">
-                                                                            <div class="col-md-4">
-                                                                                Email Subject :
-                                                                                <?php echo $row['email_sub'] ?>
-                                                                            </div>
-                                                                            <div class="col-md-4">
-                                                                                Email Content :
-                                                                                <?php echo $row['email_content'] ?>
-                                                                            </div>
-                                                                            <div class="col-md-4">
-
-                                                                            </div>
-                                                                        </div><br>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="modal-footer">
-                                                                    <button type="button" class="btn btn-secondary"
-                                                                        data-dismiss="modal">Close</button>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                  
                                                 </td>
 
                                                 <td style="text-align:center;">

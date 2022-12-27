@@ -2,8 +2,8 @@
 
 $databaseHost = 'localhost';
 $databaseUsername = 'root';
-$databasePassword = 'MdR@6%&!#$1';
-$databaseName = 'mdrafm';
+$databasePassword = '';
+$databaseName = 'mdrafm_new';
 
 
 
